@@ -6,7 +6,7 @@
     --text-color: #0A0A0A;
     --text-light: #575757;
     --font-size: 16px
-    --animation-speed: 1;
+    --animation-speed: .1s;
 }
 
 *{
@@ -37,6 +37,7 @@ a{
         font-weight: bolder;
         color: var(--primary-color);
         text-shadow: 0 1px 3px var(--shadow-color);
+        padding-left: 50px;
     }
        span{
         color: var(--text-color);
@@ -48,9 +49,32 @@ a{
 .nav-links a{
         margin-left: 1em;
         color: var(--text-light); 
-        letter-spacing: 1px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        position: relative;
+        &::before{
+            content:"";
+            display: inline-block;
+            height: 3px;
+            width: 100%;
+            background-color: var(--primary-color);
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            transform: scaleX(0);
+            transition: transform calc(var(--animation-speed) * 0.3 s) ease-in-out;
+        }
+        &:hover{
+            &::before{
+                transform: scaleX(1)
+            }
+        }
+        &.active{
+            color:var(--primary-color);
+            font-weight: bolder;
+        }
 }
-
+/* 
 .container{
     padding-inline: 15vw;
-}
+} */
