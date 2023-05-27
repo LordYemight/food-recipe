@@ -1,4 +1,10 @@
-export default function Navbar(){
+ import React from 'react'
+ import './Navbar.css'
+ 
+ 
+ const Navbar = () => {
+    
+ 
     return (
         <div className="navbar container">
             <a href="#" className="logo">F<span>oo</span>diesHub</a>
@@ -7,6 +13,8 @@ export default function Navbar(){
                 <a href="#">Recipes</a>
                 <a href="#">Settings</a>
             </div>
-        </div>>
+        </div>
     )
-}
+    }
+
+export default Navbar;
