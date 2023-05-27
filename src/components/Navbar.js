@@ -6,7 +6,7 @@
     
  
     return (
-        <div className="navbar-container">
+        <div className="navbar container">
             <a href="#" className="logo">F<span>oo</span>diesHub</a>
             <div className="nav-links">
                 <a href="#">Home</a>
