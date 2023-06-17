@@ -46,5 +46,3 @@
 
  bar, search form, alert message, recipes, and other specific elements.
    - The CSS file ensures proper presentation and layout of the components.
-
-By following this order, you can understand how each component contributes to the overall functionality and appearance of the recipe search application.
