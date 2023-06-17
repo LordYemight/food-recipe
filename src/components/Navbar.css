@@ -15,9 +15,6 @@
     box-sizing: border-box;
 }
 
-body{
-    font-size: var(--font-size);
-}
 
 a{
     text-decoration: none;
@@ -75,7 +72,3 @@ a{
             font-weight: bolder;
         }
 }
-/* 
-.container{
-    padding-inline: 15vw;
-} */
