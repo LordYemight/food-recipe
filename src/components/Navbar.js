@@ -9,7 +9,7 @@
         <div className="navbar container">
             <a href="#" className="logo">F<span>oo</span>diesHub</a>
             <div className="nav-links">
-                <a href="https://lordyemight.github.io/food-recipe-G4/">Home</a>
+                <a href="https://lordyemight.github.io/food-recipe/">Home</a>
                 <a href="#recipe">Recipes</a>
                 <a href="#search">Search</a>
             </div>
