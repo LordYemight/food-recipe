@@ -1,6 +1,6 @@
-# FoodiesHub - A Recipe Search Web App
+# DAMMY-FOOD - A Recipe Search Web App
 
-FoodiesHub is a web application that allows users to search for recipes and view detailed information about each recipe. It provides a user-friendly interface for finding the perfect recipe for your next meal.
+DAMMY-FOOD is a web application that allows users to search for recipes and view detailed information about each recipe. It provides a user-friendly interface for finding the perfect recipe for your next meal.
 
 ## Features
 
@@ -66,9 +66,7 @@ To use this application:
 
 1. Clone this repository to your local machine.
 
-2. Customize the API data source by modifying the API URL and authentication details in the `App.js` file to reflect your specific API and application requirements.
-
-3. Install the required dependencies by running `npm install` in your terminal.
+2. Install the required dependencies by running `npm install` in your terminal.
 
 4. Start the development server by running `npm start` in your terminal.
 
@@ -78,10 +76,10 @@ To use this application:
 
 Feel free to customize the design and functionalities to match your specific requirements. Your feedback and contributions are highly appreciated to further enhance this project.
 
-Explore the FoodiesHub and simplify your recipe search today!
+Explore the DAMMY-FOOD and simplify your recipe search today!
 
 ---
 
 **Note**: Ensure that the API URL and authentication details in the `App.js` file are correctly configured to work seamlessly with your chosen data source.
 
-Repository Link: [FoodiesHub - Recipe Search App](https://github.com/LordYemight/foodies-hub)
+
