@@ -1,0 +1,49 @@
+.recipe-container {
+    margin-top: -20px;
+}
+
+.recipe {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    max-width: 40rem;
+    padding-top: 2rem;
+}
+
+.recipe h2 {
+    background-color: black;
+    border-radius: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-shadow: 0 0.5rem 0.5rem #555;
+    color: #fff;
+    width: 100%;
+}
+
+.recipe img {
+    border-radius: 0.5rem;
+    height: 23rem;
+    object-fit: cover;
+
+}
+
+.recipe a {
+    font-size: 1.8rem;
+    color: black;
+}
+
+.recipe button {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: gold;
+    border: none;
+    border-radius: 0.5rem;
+    height: 3rem;
+    cursor: pointer;
+}

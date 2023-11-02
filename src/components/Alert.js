@@ -1,4 +1,5 @@
 import React from "react";
+import '../css/Alert.css';
 
 const Alert = ({ alert }) => {
   return (

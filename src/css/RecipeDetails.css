@@ -1,0 +1,22 @@
+.ingredient-list {
+    margin-top: 1rem;
+    background-color: #f0f0f0;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredient {
+    margin: 1rem 0;
+}
+
+.ingredient-text {
+    font-size: 1.4rem;
+    color: #555;
+}
+
+.ingredient-weight {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
